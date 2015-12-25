@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background:#0e0e49;
+		overflow: hidden;
+	}
+	
+	.stage {
+		width:1280px ;
+		height: 1024px;
+		position: absolute;
+		background: url('img/galaxy.png') ;
+		z-index: 1;
+	}
+	
+	#plane{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background-image: url('img/plane.png');
+		width: 92px;
+		height: 150px;
+		margin: 0;
+		z-index: 2;
+	}
+	
+	#bullet {
+		background-image: url('img/bullet.png');
+		width: 32px;
+		height: 32px;
+	    position: absolute;
+	    z-index: 2;
+	    visibility:hidden;
+	    margin: 134px 30px;
+	}
+	
+	#enemy {
+		position: absolute;
+		background-image: url('img/ufo.png');
+		left: 0;
+		top:10px ;
+		width: 168px;
+		height: 168px;
+		margin: 0;
+		z-index: 2;
+	}
+	
+	#map {
+		border: 4px solid red;
+		background-color:yellow;
+		font-color:black;
+		right:10px;
+		top: 10px;
+		z-index:3;
+		width:100px;
+		height:50px;
+		position: absolute;
+		font-size:17px;
+	}
+	
+	#map>input {
+	  width:30px;
+	  margin:2px;
+	}
+	
+	

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>UFO game</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="js/plane.js"></script>
+		<script type="text/javascript" src="js/stage.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/enemy.js"></script>
+	
+	</head>
+	<body onload = "moveEnemy()">
+		<div id = "scroller"></div>
+		
+		<div class = "stage" >&nbsp;</div>
+		<div id = "plane"></div>
+		<div id = "bullet"></div>
+		<div id = "enemy"></div>
+		
+		<div id = "map">
+				<label for="score">Score: </label>
+				<input type="text"  id = "score" value = "0" />
+			
+				<label for="bullets">Bullets: </label>
+				<input type="text" id = "bullets" value = "100"/>
+		</div>
+		
+	</body>
+</html>
